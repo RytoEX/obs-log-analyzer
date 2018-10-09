@@ -1,14 +1,23 @@
 {
-	"require": {
-	},
-	"autoload": {
-		"psr-4": {
-			"RytoEX\\OBS\\LogAnalyzer\\": "src/"
-		}
-	},
-	"autoload-dev": {
-		"psr-4": {
-			"RytoEX\\OBS\\LogAnalyzer\\Tests\\": "tests/"
-		}
-	}
+    "name": "rytoex/obs-log-analyzer",
+    "description": "A log analyzer backend for OBS Studio logs",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Ryan Foster",
+            "email": "RytoEX@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "RytoEX\\OBS\\LogAnalyzer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RytoEX\\OBS\\LogAnalyzer\\Tests\\": "tests/"
+        }
+    }
 }
