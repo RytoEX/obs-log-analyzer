@@ -1,0 +1,278 @@
+{
+	"format_version": 1,
+	"releases": [
+		{
+			"apple_version_full_name": "macOS High Sierra",
+			"apple_version_brand": "macOS",
+			"versions": [
+				{
+					"version": "10.13.3",
+					"builds": [
+						"17D47",
+						"17D102",
+						"17D2047",
+						"17D2102"
+					]
+				},
+				{
+					"version": "10.13.2",
+					"builds": [
+						"17C88",
+						"17C89",
+						"17C205",
+						"17C2205"
+					]
+				},
+				{
+					"version": "10.13.1",
+					"builds": [
+						"17B48",
+						"17B1002",
+						"17B1003"
+					]
+				},
+				{
+					"version": "10.13",
+					"builds": [
+						"17A365",
+						"17A405"
+					]
+				}
+			]
+		},
+		{
+			"apple_version_full_name": "macOS Sierra",
+			"apple_version_brand": "macOS",
+			"versions": [
+				{
+					"version": "10.12.6",
+					"builds": [
+						"16G29",
+						"16G1036",
+						"16G1114",
+						"16G1212"
+					]
+				},
+				{
+					"version": "10.12.5",
+					"builds": [
+						"16F73"
+					]
+				},
+				{
+					"version": "10.12.4",
+					"builds": [
+						"16E195"
+					]
+				},
+				{
+					"version": "10.12.3",
+					"builds": [
+						"16D32"
+					]
+				},
+				{
+					"version": "10.12.2",
+					"builds": [
+						"16C67"
+					]
+				},
+				{
+					"version": "10.12.1",
+					"builds": [
+						"16B2555",
+						"16B2557"
+					]
+				},
+				{
+					"version": "10.12",
+					"builds": [
+						"16A323"
+					]
+				}
+			]
+		},
+		{
+			"apple_version_full_name": "OS X El Capitan",
+			"apple_version_brand": "OS X",
+			"versions": [
+				{
+					"version": "10.11.6",
+					"builds": [
+						"15G31",
+						"15G17023",
+						"15G18013",
+						"15G19009"
+					]
+				},
+				{
+					"version": "10.11.5",
+					"builds": [
+						"15F34"
+					]
+				},
+				{
+					"version": "10.11.4",
+					"builds": [
+						"15E65"
+					]
+				},
+				{
+					"version": "10.11.3",
+					"builds": [
+						"15D21"
+					]
+				},
+				{
+					"version": "10.11.2",
+					"builds": [
+						"15C50"
+					]
+				},
+				{
+					"version": "10.11.1",
+					"builds": [
+						"15B42"
+					]
+				},
+				{
+					"version": "10.11",
+					"builds": [
+						"15A284"
+					]
+				}
+			]
+		},
+		{
+			"apple_version_full_name": "OS X Yosemite",
+			"apple_version_brand": "OS X",
+			"versions": [
+				{
+					"version": "10.10.5",
+					"builds": [
+						"14F27"
+					],
+					"kernel": "14.5.0"
+				},
+				{
+					"version": "10.10.4",
+					"builds": [
+						"14E46"
+					]
+				},
+				{
+					"version": "10.10.3",
+					"builds": [
+						"14D136"
+					]
+				},
+				{
+					"version": "10.10.2",
+					"builds": [
+						"14C109"
+					]
+				},
+				{
+					"version": "10.10.1",
+					"builds": [
+						"14B25"
+					]
+				},
+				{
+					"version": "10.10",
+					"builds": [
+						"14A389"
+					]
+				}
+			]
+		},
+		{
+			"apple_version_full_name": "OS X Mavericks",
+			"apple_version_brand": "OS X",
+			"versions": [
+				{
+					"version": "10.9.5",
+					"builds": [
+						"13F34"
+					]
+				},
+				{
+					"version": "10.9.4",
+					"builds": [
+						"13E28"
+					]
+				},
+				{
+					"version": "10.9.3",
+					"builds": [
+						"13D65"
+					]
+				},
+				{
+					"version": "10.9.2",
+					"builds": [
+						"13C64"
+					]
+				},
+				{
+					"version": "10.9.1",
+					"builds": [
+						"13B42"
+					]
+				},
+				{
+					"version": "10.9",
+					"builds": [
+						"13A603"
+					]
+				}
+			]
+		},
+		{
+			"apple_version_full_name": "OS X Mountain Lion",
+			"apple_version_brand": "OS X",
+			"versions": [
+				{
+					"version": "10.8.5",
+					"builds": [
+						"12F37",
+						"12F45",
+						"12F2029"
+					]
+				},
+				{
+					"version": "10.8.4",
+					"builds": [
+						"12E55"
+					]
+				},
+				{
+					"version": "10.8.3",
+					"builds": [
+						"12D78"
+					]
+				},
+				{
+					"version": "10.8.2",
+					"builds": [
+						"12C54",
+						"12C60",
+						"12C2034"
+					]
+				},
+				{
+					"version": "10.8.1",
+					"builds": [
+						"12B19"
+					]
+				},
+				{
+					"version": "10.8",
+					"builds": [
+						"12A269"
+					]
+				}
+			]
+		}
+	]
+}

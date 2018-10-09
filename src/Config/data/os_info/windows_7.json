@@ -1,0 +1,21 @@
+{
+	"format_version": 1,
+	"releases": [
+		{
+			"version": "6.1",
+			"build": "7601",
+			"revision": "24117",
+			"bitness": "32",
+			"platform": "x86",
+			"ms_codename": "Vienna"
+		},
+		{
+			"version": "6.1",
+			"build": "7601",
+			"revision": "24117",
+			"bitness": "64",
+			"platform": "x64",
+			"ms_codename": "Vienna"
+		}
+	]
+}

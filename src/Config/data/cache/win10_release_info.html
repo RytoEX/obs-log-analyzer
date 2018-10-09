@@ -1,0 +1,1461 @@
+﻿  <!DOCTYPE html>  <html lang="en">  <head>      <meta charset="utf-8">      <script type="text/javascript">          /* Begin App Insights JS */          var appInsights=window.appInsights||function(config){          function r(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i)})}}var t={config:config},u=document,e=window,o="script",s=u.createElement(o),i,f;for(s.src=config.url||"//az416426.vo.msecnd.net/scripts/a/ai.0.js",u.getElementsByTagName(o)[0].parentNode.appendChild(s),t.cookie=u.cookie,t.queue=[],i=["Event","Exception","Metric","PageView","Trace"];i.length;)r("track"+i.pop());return r("setAuthenticatedUserContext"),r("clearAuthenticatedUserContext"),config.disableExceptionTracking||(i="onerror",r("_"+i),f=e[i],e[i]=function(config,r,u,e,o){var s=f&&f(config,r,u,e,o);return s!==!0&&t["_"+i](config,r,u,e,o),s}),t          }({              instrumentationKey:"4083e586-a412-4f52-a654-892d13a7c563"          });            window.appInsights=appInsights;          appInsights.trackPageView();          /* End App Insights JS */          </script>      <style type="text/css">          html {              margin: 0;              padding: 0;          }            body {              font-family: "Segoe UI", "Segoe WP", Tahoma, Arial, sans-serif;              max-width: 980px;              font-size: 14px;              line-height: 1.4;              color: #58595b;              margin: 0;              padding: 0;          }            h2 {              margin-top: 24px;              margin-bottom: 12px;              font-family: "Segoe UI", Segoe, Tahoma, Geneva, sans-serif;              font-weight: 600;              font-size: 24px;              color: #333;          }            h3 {              margin-top: 16px;              font-family: "Segoe UI", Segoe, Tahoma, Geneva, sans-serif;              font-weight: 600;              font-size: 16px;              color: #333;          }            p {              margin-bottom: 16px;              font-family: "Segoe UI", Segoe, Tahoma, Geneva, sans-serif;          }            p.small {              font-size: 12px;          }            a, a:link, a:visited {              color: #06d;              text-decoration: none;          }            a:hover, a:focus {              color: #0095c4;          }            table {           width: 100%;           font-size: 12px;           border-collapse: collapse;              border-spacing: 0;              display: table;          }            th {           border: 2px solid #1e1e1e;           text-align: left;           padding: 8px;          }            td {           border: 2px solid #1e1e1e;           padding: 4px;          }            table.cells-centered tr, table.cells-centered tr th {              text-align: center;          }            tr.noborder td {              border: none;          }            tr.highlight td {              background-color: lightgoldenrodyellow;          }            td#suggested-build-flyout {              border: none;              font-weight: bold;              font-style: italic;              text-align: left;              padding-left: 5px;          }                    h4 a, h4 a:link, h4 a:hover, h4 a:focus, h4 a:visited {              color: #4f4f4f;          }            span.triangle {              color: #000;              font-size: 10px;              font-family: Helvetica, Arial, sans-serif;          }      </style>      <title>Windows 10 Release Information</title>  </head>
+<body onload="onload();">
+    <div id="winrelinfo_container">
+<h3>Windows 10 current versions by servicing option</h3>
+    <table class="cells-centered">              <tr>                  <th>Version</th>                  <th>Servicing option</th>                  <th>Availability date</th>                  <th>OS build</th>                  <th>Latest revision date</th></tr>
+     <tr class="highlight">
+             <td>1809</td>
+             <td align="left">Semi-Annual Channel (Targeted)</td>
+             <td>10/2/2018</td>
+             <td>17763.1</td>
+             <td>10/2/2018</td>
+             <td id="suggested-build-flyout">Microsoft recommends</td>
+     </tr>
+     <tr>
+             <td>1803</td>
+             <td align="left">Semi-Annual Channel</td>
+             <td>7/10/2018</td>
+             <td>17134.320</td>
+             <td>9/26/2018</td>
+     </tr>
+     <tr>
+             <td>1803</td>
+             <td align="left">Semi-Annual Channel (Targeted)</td>
+             <td>4/30/2018</td>
+             <td>17134.320</td>
+             <td>9/26/2018</td>
+     </tr>
+     <tr>
+             <td>1709</td>
+             <td align="left">Semi-Annual Channel</td>
+             <td>1/18/2018</td>
+             <td>16299.699</td>
+             <td>9/26/2018</td>
+     </tr>
+     <tr>
+             <td>1709</td>
+             <td align="left">Semi-Annual Channel (Targeted)</td>
+             <td>10/17/2017</td>
+             <td>16299.699</td>
+             <td>9/26/2018</td>
+     </tr>
+     <tr>
+             <td>1703</td>
+             <td align="left">Semi-Annual Channel</td>
+             <td>7/11/2017</td>
+             <td>15063.1356</td>
+             <td>9/20/2018</td>
+     </tr>
+     <tr>
+             <td>1703</td>
+             <td align="left">Current Branch (CB)</td>
+             <td>4/11/2017</td>
+             <td>15063.1356</td>
+             <td>9/20/2018</td>
+     </tr>
+     <tr>
+             <td>1607</td>
+             <td align="left">Current Branch for Business (CBB)</td>
+             <td>11/29/2016</td>
+             <td>14393.2515</td>
+             <td>9/20/2018</td>
+     </tr>
+     <tr>
+             <td>1607</td>
+             <td align="left">Current Branch (CB)</td>
+             <td>8/2/2016</td>
+             <td>14393.2515</td>
+             <td>9/20/2018</td>
+     </tr>
+     <tr>
+             <td>1607</td>
+             <td align="left">Long-Term Servicing Branch (LTSB)</td>
+             <td>8/2/2016</td>
+             <td>14393.2515</td>
+             <td>9/20/2018</td>
+     </tr>
+     <tr>
+             <td>1507 (RTM)</td>
+             <td align="left">Long-Term Servicing Branch (LTSB)</td>
+             <td>7/29/2015</td>
+             <td>10240.17976</td>
+             <td>9/11/2018</td>
+     </tr>
+</table>
+
+<h3>Windows 10 release history</h3>
+<p><p>Learn more about the contents of Windows 10 updates at <a target="_top" href="http://windows.microsoft.com/en-us/windows-10/update-history-windows-10">Windows 10 Update History</a>.</p></p>
+<h4><a href = "javascript:toggleHistoryTable(0);"><span class="triangle" id="historyHeader_0">&#9660;</span> Version 1809 (OS build 17763)</a></h4>
+<table class="cells-centered" id="historyTable_0">
+<tr>
+                    <th style="width:107px;">OS build</th>
+                    <th style="width:184px;">Availability date</th>
+                    <th style="width:532px;">Servicing option</th>
+                    <th style="width:117px;">KB article</th>
+                </tr>
+     <tr>
+             <td>17763.1</td>
+             <td>10/2/2018</td>
+             <td>Semi-Annual Channel (Targeted)</td>
+             <td></td>
+     </tr>
+</table>
+
+<h4><a href = "javascript:toggleHistoryTable(1);"><span class="triangle" id="historyHeader_1">&#9660;</span> Version 1803 (OS build 17134)</a></h4>
+<table class="cells-centered" id="historyTable_1">
+<tr>
+                    <th style="width:107px;">OS build</th>
+                    <th style="width:184px;">Availability date</th>
+                    <th style="width:532px;">Servicing option</th>
+                    <th style="width:117px;">KB article</th>
+                </tr>
+     <tr>
+             <td>17134.320</td>
+             <td>9/26/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4458469" target="_top">KB 4458469</a></td>
+     </tr>
+     <tr>
+             <td>17134.286</td>
+             <td>9/17/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4464218" target="_top">KB 4464218</a></td>
+     </tr>
+     <tr>
+             <td>17134.285</td>
+             <td>9/11/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4457128" target="_top">KB 4457128</a></td>
+     </tr>
+     <tr>
+             <td>17134.254</td>
+             <td>8/30/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4346783" target="_top">KB 4346783</a></td>
+     </tr>
+     <tr>
+             <td>17134.228</td>
+             <td>8/14/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4343909" target="_top">KB 4343909</a></td>
+     </tr>
+     <tr>
+             <td>17134.191</td>
+             <td>7/24/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4340917" target="_top">KB 4340917</a></td>
+     </tr>
+     <tr>
+             <td>17134.167</td>
+             <td>7/16/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4345421" target="_top">KB 4345421</a></td>
+     </tr>
+     <tr>
+             <td>17134.165</td>
+             <td>7/10/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4338819" target="_top">KB 4338819</a></td>
+     </tr>
+     <tr>
+             <td>17134.137</td>
+             <td>6/26/2018</td>
+             <td>Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4284848" target="_top">KB 4284848</a></td>
+     </tr>
+     <tr>
+             <td>17134.112</td>
+             <td>6/12/2018</td>
+             <td>Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4284835" target="_top">KB 4284835</a></td>
+     </tr>
+     <tr>
+             <td>17134.83</td>
+             <td>6/5/2018</td>
+             <td>Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4338548" target="_top">KB 4338548</a></td>
+     </tr>
+     <tr>
+             <td>17134.81</td>
+             <td>5/23/2018</td>
+             <td>Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4100403" target="_top">KB 4100403</a></td>
+     </tr>
+     <tr>
+             <td>17134.48</td>
+             <td>5/8/2018</td>
+             <td>Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4103721" target="_top">KB 4103721</a></td>
+     </tr>
+</table>
+
+<h4><a href = "javascript:toggleHistoryTable(2);"><span class="triangle" id="historyHeader_2">&#9660;</span> Version 1709 (OS build 16299)</a></h4>
+<table class="cells-centered" id="historyTable_2">
+<tr>
+                    <th style="width:107px;">OS build</th>
+                    <th style="width:184px;">Availability date</th>
+                    <th style="width:532px;">Servicing option</th>
+                    <th style="width:117px;">KB article</th>
+                </tr>
+     <tr>
+             <td>16299.699</td>
+             <td>9/26/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4457136" target="_top">KB 4457136</a></td>
+     </tr>
+     <tr>
+             <td>16299.666</td>
+             <td>9/17/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4464217" target="_top">KB 4464217</a></td>
+     </tr>
+     <tr>
+             <td>16299.665</td>
+             <td>9/11/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4457142" target="_top">KB 4457142</a></td>
+     </tr>
+     <tr>
+             <td>16299.637</td>
+             <td>8/30/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4343893" target="_top">KB 4343893</a></td>
+     </tr>
+     <tr>
+             <td>16299.611</td>
+             <td>8/14/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4343897" target="_top">KB 4343897</a></td>
+     </tr>
+     <tr>
+             <td>16299.579</td>
+             <td>7/24/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4338817" target="_top">KB 4338817</a></td>
+     </tr>
+     <tr>
+             <td>16299.551</td>
+             <td>7/16/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4345420" target="_top">KB 4345420</a></td>
+     </tr>
+     <tr>
+             <td>16299.547</td>
+             <td>7/10/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4338825" target="_top">KB 4338825</a></td>
+     </tr>
+     <tr>
+             <td>16299.522</td>
+             <td>6/21/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4284822" target="_top">KB 4284822</a></td>
+     </tr>
+     <tr>
+             <td>16299.492</td>
+             <td>6/12/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4284819" target="_top">KB 4284819</a></td>
+     </tr>
+     <tr>
+             <td>16299.461</td>
+             <td>5/21/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4103714" target="_top">KB 4103714</a></td>
+     </tr>
+     <tr>
+             <td>16299.431</td>
+             <td>5/8/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4103727" target="_top">KB 4103727</a></td>
+     </tr>
+     <tr>
+             <td>16299.402</td>
+             <td>4/23/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4093105" target="_top">KB 4093105</a></td>
+     </tr>
+     <tr>
+             <td>16299.371</td>
+             <td>4/10/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4093112" target="_top">KB 4093112</a></td>
+     </tr>
+     <tr>
+             <td>16299.334</td>
+             <td>3/22/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4089848" target="_top">KB 4089848</a></td>
+     </tr>
+     <tr>
+             <td>16299.309</td>
+             <td>3/13/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4088776" target="_top">KB 4088776</a></td>
+     </tr>
+     <tr>
+             <td>16299.251</td>
+             <td>3/5/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4090913" target="_top">KB 4090913</a></td>
+     </tr>
+     <tr>
+             <td>16299.248</td>
+             <td>2/13/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4074588" target="_top">KB 4074588</a></td>
+     </tr>
+     <tr>
+             <td>16299.214</td>
+             <td>1/31/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4058258" target="_top">KB 4058258</a></td>
+     </tr>
+     <tr>
+             <td>16299.201</td>
+             <td>1/18/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4073291" target="_top">KB 4073291</a></td>
+     </tr>
+     <tr>
+             <td>16299.194</td>
+             <td>1/17/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4073290" target="_top">KB 4073290</a></td>
+     </tr>
+     <tr>
+             <td>16299.192</td>
+             <td>1/3/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4056892" target="_top">KB 4056892</a></td>
+     </tr>
+     <tr>
+             <td>16299.125</td>
+             <td>12/12/2017</td>
+             <td>Semi-Annual Channel <span> &bull; </span> Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4054517" target="_top">KB 4054517</a></td>
+     </tr>
+     <tr>
+             <td>16299.98</td>
+             <td>11/30/2017</td>
+             <td>Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4051963" target="_top">KB 4051963</a></td>
+     </tr>
+     <tr>
+             <td>16299.64</td>
+             <td>11/14/2017</td>
+             <td>Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4048955" target="_top">KB 4048955</a></td>
+     </tr>
+     <tr>
+             <td>16299.19</td>
+             <td>10/17/2017</td>
+             <td>Semi-Annual Channel (Targeted)</td>
+             <td><a href="https://support.microsoft.com/?kbid=4043961" target="_top">KB 4043961</a></td>
+     </tr>
+</table>
+
+<h4><a href = "javascript:toggleHistoryTable(3);"><span class="triangle" id="historyHeader_3">&#9660;</span> Version 1703 (OS build 15063)</a></h4>
+<table class="cells-centered" id="historyTable_3">
+<tr>
+                    <th style="width:107px;">OS build</th>
+                    <th style="width:184px;">Availability date</th>
+                    <th style="width:532px;">Servicing option</th>
+                    <th style="width:117px;">KB article</th>
+                </tr>
+     <tr>
+             <td>15063.1356</td>
+             <td>9/20/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4457141" target="_top">KB 4457141</a></td>
+     </tr>
+     <tr>
+             <td>15063.1324</td>
+             <td>9/11/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4457138" target="_top">KB 4457138</a></td>
+     </tr>
+     <tr>
+             <td>15063.1292</td>
+             <td>8/30/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4343889" target="_top">KB 4343889</a></td>
+     </tr>
+     <tr>
+             <td>15063.1266</td>
+             <td>8/14/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4343885" target="_top">KB 4343885</a></td>
+     </tr>
+     <tr>
+             <td>15063.1235</td>
+             <td>7/24/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4338827" target="_top">KB 4338827</a></td>
+     </tr>
+     <tr>
+             <td>15063.1209</td>
+             <td>7/16/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4345419" target="_top">KB 4345419</a></td>
+     </tr>
+     <tr>
+             <td>15063.1206</td>
+             <td>7/10/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4338826" target="_top">KB 4338826</a></td>
+     </tr>
+     <tr>
+             <td>15063.1182</td>
+             <td>6/21/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4284830" target="_top">KB 4284830</a></td>
+     </tr>
+     <tr>
+             <td>15063.1155</td>
+             <td>6/12/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4284874" target="_top">KB 4284874</a></td>
+     </tr>
+     <tr>
+             <td>15063.1112</td>
+             <td>5/17/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4103722" target="_top">KB 4103722</a></td>
+     </tr>
+     <tr>
+             <td>15063.1088</td>
+             <td>5/8/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4103731" target="_top">KB 4103731</a></td>
+     </tr>
+     <tr>
+             <td>15063.1058</td>
+             <td>4/17/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4093117" target="_top">KB 4093117</a></td>
+     </tr>
+     <tr>
+             <td>15063.1029</td>
+             <td>4/10/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4093107" target="_top">KB 4093107</a></td>
+     </tr>
+     <tr>
+             <td>15063.994</td>
+             <td>3/22/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4088891" target="_top">KB 4088891</a></td>
+     </tr>
+     <tr>
+             <td>15063.966</td>
+             <td>3/13/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4088782" target="_top">KB 4088782</a></td>
+     </tr>
+     <tr>
+             <td>15063.936</td>
+             <td>3/8/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4092077" target="_top">KB 4092077</a></td>
+     </tr>
+     <tr>
+             <td>15063.936</td>
+             <td>2/22/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4077528" target="_top">KB 4077528</a></td>
+     </tr>
+     <tr>
+             <td>15063.909</td>
+             <td>2/13/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4074592" target="_top">KB 4074592</a></td>
+     </tr>
+     <tr>
+             <td>15063.877</td>
+             <td>1/17/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4057144" target="_top">KB 4057144</a></td>
+     </tr>
+     <tr>
+             <td>15063.850</td>
+             <td>1/3/2018</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4056891" target="_top">KB 4056891</a></td>
+     </tr>
+     <tr>
+             <td>15063.786</td>
+             <td>12/12/2017</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4053580" target="_top">KB 4053580</a></td>
+     </tr>
+     <tr>
+             <td>15063.729</td>
+             <td>11/22/2017</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4055254" target="_top">KB 4055254</a></td>
+     </tr>
+     <tr>
+             <td>15063.726</td>
+             <td>11/14/2017</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4048954" target="_top">KB 4048954</a></td>
+     </tr>
+     <tr>
+             <td>15063.675</td>
+             <td>11/2/2017</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4049370" target="_top">KB 4049370</a></td>
+     </tr>
+     <tr>
+             <td>15063.674</td>
+             <td>10/10/2017</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4041676" target="_top">KB 4041676</a></td>
+     </tr>
+     <tr>
+             <td>15063.632</td>
+             <td>9/25/2017</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4040724" target="_top">KB 4040724</a></td>
+     </tr>
+     <tr>
+             <td>15063.608</td>
+             <td>9/12/2017</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4038788" target="_top">KB 4038788</a></td>
+     </tr>
+     <tr>
+             <td>15063.540</td>
+             <td>8/8/2017</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4034674" target="_top">KB 4034674</a></td>
+     </tr>
+     <tr>
+             <td>15063.502</td>
+             <td>8/1/2017</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4032188" target="_top">KB 4032188</a></td>
+     </tr>
+     <tr>
+             <td>15063.483</td>
+             <td>7/11/2017</td>
+             <td>Semi-Annual Channel <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4025342" target="_top">KB 4025342</a></td>
+     </tr>
+     <tr>
+             <td>15063.447</td>
+             <td>6/27/2017</td>
+             <td>CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4022716" target="_top">KB 4022716</a></td>
+     </tr>
+     <tr>
+             <td>15063.413</td>
+             <td>6/13/2017</td>
+             <td>CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4022725" target="_top">KB 4022725</a></td>
+     </tr>
+     <tr>
+             <td>15063.332</td>
+             <td>5/26/2017</td>
+             <td>CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4020102" target="_top">KB 4020102</a></td>
+     </tr>
+     <tr>
+             <td>15063.296</td>
+             <td>5/9/2017</td>
+             <td>CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4016871" target="_top">KB 4016871</a></td>
+     </tr>
+     <tr>
+             <td>15063.250</td>
+             <td>4/25/2017</td>
+             <td>CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4016240" target="_top">KB 4016240</a></td>
+     </tr>
+     <tr>
+             <td>15063.138</td>
+             <td>4/11/2017</td>
+             <td>CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4015583" target="_top">KB 4015583</a></td>
+     </tr>
+</table>
+
+<h4><a href = "javascript:toggleHistoryTable(4);"><span class="triangle" id="historyHeader_4">&#9660;</span> Version 1607 (OS build 14393)</a></h4>
+<table class="cells-centered" id="historyTable_4">
+<tr>
+                    <th style="width:107px;">OS build</th>
+                    <th style="width:184px;">Availability date</th>
+                    <th style="width:532px;">Servicing option</th>
+                    <th style="width:117px;">KB article</th>
+                </tr>
+     <tr>
+             <td>14393.2515</td>
+             <td>9/20/2018</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4457127" target="_top">KB 4457127</a></td>
+     </tr>
+     <tr>
+             <td>14393.2485</td>
+             <td>9/11/2018</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4457131" target="_top">KB 4457131</a></td>
+     </tr>
+     <tr>
+             <td>14393.2457</td>
+             <td>8/30/2018</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4343884" target="_top">KB 4343884</a></td>
+     </tr>
+     <tr>
+             <td>14393.2430</td>
+             <td>8/14/2018</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4343887" target="_top">KB 4343887</a></td>
+     </tr>
+     <tr>
+             <td>14393.2396</td>
+             <td>7/30/2018</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4346877" target="_top">KB 4346877</a></td>
+     </tr>
+     <tr>
+             <td>14393.2395</td>
+             <td>7/24/2018</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4338822" target="_top">KB 4338822</a></td>
+     </tr>
+     <tr>
+             <td>14393.2368</td>
+             <td>7/16/2018</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4345418" target="_top">KB 4345418</a></td>
+     </tr>
+     <tr>
+             <td>14393.2363</td>
+             <td>7/10/2018</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4338814" target="_top">KB 4338814</a></td>
+     </tr>
+     <tr>
+             <td>14393.2339</td>
+             <td>6/21/2018</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4284833" target="_top">KB 4284833</a></td>
+     </tr>
+     <tr>
+             <td>14393.2312</td>
+             <td>6/12/2018</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4284880" target="_top">KB 4284880</a></td>
+     </tr>
+     <tr>
+             <td>14393.2273</td>
+             <td>5/17/2018</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4103720" target="_top">KB 4103720</a></td>
+     </tr>
+     <tr>
+             <td>14393.2248</td>
+             <td>5/8/2018</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4103723" target="_top">KB 4103723</a></td>
+     </tr>
+     <tr>
+             <td>14393.2214</td>
+             <td>4/17/2018</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4093120" target="_top">KB 4093120</a></td>
+     </tr>
+     <tr>
+             <td>14393.2189</td>
+             <td>4/10/2018</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4093119" target="_top">KB 4093119</a></td>
+     </tr>
+     <tr>
+             <td>14393.2156</td>
+             <td>3/29/2018</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4096309" target="_top">KB 4096309</a></td>
+     </tr>
+     <tr>
+             <td>14393.2155</td>
+             <td>3/22/2018</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4088889" target="_top">KB 4088889</a></td>
+     </tr>
+     <tr>
+             <td>14393.2125</td>
+             <td>3/13/2018</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4088787" target="_top">KB 4088787</a></td>
+     </tr>
+     <tr>
+             <td>14393.2097</td>
+             <td>2/22/2018</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4077525" target="_top">KB 4077525</a></td>
+     </tr>
+     <tr>
+             <td>14393.2068</td>
+             <td>2/13/2018</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4074590" target="_top">KB 4074590</a></td>
+     </tr>
+     <tr>
+             <td>14393.2035</td>
+             <td>1/17/2018</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4057142" target="_top">KB 4057142</a></td>
+     </tr>
+     <tr>
+             <td>14393.2007</td>
+             <td>1/3/2018</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4056890" target="_top">KB 4056890</a></td>
+     </tr>
+     <tr>
+             <td>14393.1944</td>
+             <td>12/12/2017</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4053579" target="_top">KB 4053579</a></td>
+     </tr>
+     <tr>
+             <td>14393.1914</td>
+             <td>11/27/2017</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4051033" target="_top">KB 4051033</a></td>
+     </tr>
+     <tr>
+             <td>14393.1884</td>
+             <td>11/14/2017</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4048953" target="_top">KB 4048953</a></td>
+     </tr>
+     <tr>
+             <td>14393.1797</td>
+             <td>11/2/2017</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4052231" target="_top">KB 4052231</a></td>
+     </tr>
+     <tr>
+             <td>14393.1794</td>
+             <td>10/17/2017</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4041688" target="_top">KB 4041688</a></td>
+     </tr>
+     <tr>
+             <td>14393.1770</td>
+             <td>10/10/2017</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4041691" target="_top">KB 4041691</a></td>
+     </tr>
+     <tr>
+             <td>14393.1737</td>
+             <td>9/25/2017</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4038801" target="_top">KB 4038801</a></td>
+     </tr>
+     <tr>
+             <td>14393.1715</td>
+             <td>9/12/2017</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4038782" target="_top">KB 4038782</a></td>
+     </tr>
+     <tr>
+             <td>14393.1670</td>
+             <td>8/28/2017</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4039396" target="_top">KB 4039396</a></td>
+     </tr>
+     <tr>
+             <td>14393.1613</td>
+             <td>8/16/2017</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4034661" target="_top">KB 4034661</a></td>
+     </tr>
+     <tr>
+             <td>14393.1593</td>
+             <td>8/8/2017</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4034658" target="_top">KB 4034658</a></td>
+     </tr>
+     <tr>
+             <td>14393.1537</td>
+             <td>8/7/2017</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4038220" target="_top">KB 4038220</a></td>
+     </tr>
+     <tr>
+             <td>14393.1532</td>
+             <td>7/18/2017</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4025334" target="_top">KB 4025334</a></td>
+     </tr>
+     <tr>
+             <td>14393.1480</td>
+             <td>7/11/2017</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4025339" target="_top">KB 4025339</a></td>
+     </tr>
+     <tr>
+             <td>14393.1378</td>
+             <td>6/27/2017</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4022723" target="_top">KB 4022723</a></td>
+     </tr>
+     <tr>
+             <td>14393.1358</td>
+             <td>6/13/2017</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4022715" target="_top">KB 4022715</a></td>
+     </tr>
+     <tr>
+             <td>14393.1198</td>
+             <td>5/9/2017</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4019472" target="_top">KB 4019472</a></td>
+     </tr>
+     <tr>
+             <td>14393.1066</td>
+             <td>4/11/2017</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4015217" target="_top">KB 4015217</a></td>
+     </tr>
+     <tr>
+             <td>14393.969</td>
+             <td>3/20/2017</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4015438" target="_top">KB 4015438</a></td>
+     </tr>
+     <tr>
+             <td>14393.953</td>
+             <td>3/14/2017</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4013429" target="_top">KB 4013429</a></td>
+     </tr>
+     <tr>
+             <td>14393.693</td>
+             <td>1/10/2017</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3213986" target="_top">KB 3213986</a></td>
+     </tr>
+     <tr>
+             <td>14393.576</td>
+             <td>12/13/2016</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3206632" target="_top">KB 3206632</a></td>
+     </tr>
+     <tr>
+             <td>14393.479</td>
+             <td>12/9/2016</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3201845" target="_top">KB 3201845</a></td>
+     </tr>
+     <tr>
+             <td>14393.447</td>
+             <td>11/8/2016</td>
+             <td>CBB <span> &bull; </span> CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3200970" target="_top">KB 3200970</a></td>
+     </tr>
+     <tr>
+             <td>14393.351</td>
+             <td>10/27/2016</td>
+             <td>CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3197954" target="_top">KB 3197954</a></td>
+     </tr>
+     <tr>
+             <td>14393.321</td>
+             <td>10/11/2016</td>
+             <td>CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3194798" target="_top">KB 3194798</a></td>
+     </tr>
+     <tr>
+             <td>14393.222</td>
+             <td>9/29/2016</td>
+             <td>CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3194496" target="_top">KB 3194496</a></td>
+     </tr>
+     <tr>
+             <td>14393.187</td>
+             <td>9/20/2016</td>
+             <td>CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3193494" target="_top">KB 3193494</a></td>
+     </tr>
+     <tr>
+             <td>14393.187</td>
+             <td>9/13/2016</td>
+             <td>CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3189866" target="_top">KB 3189866</a></td>
+     </tr>
+     <tr>
+             <td>14393.105</td>
+             <td>8/31/2016</td>
+             <td>CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3176938" target="_top">KB 3176938</a></td>
+     </tr>
+     <tr>
+             <td>14393.82</td>
+             <td>8/23/2016</td>
+             <td>CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3176934" target="_top">KB 3176934</a></td>
+     </tr>
+     <tr>
+             <td>14393.51</td>
+             <td>8/9/2016</td>
+             <td>CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3176495" target="_top">KB 3176495</a></td>
+     </tr>
+     <tr>
+             <td>14393.10</td>
+             <td>8/2/2016</td>
+             <td>CB <span> &bull; </span> LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3176929" target="_top">KB 3176929</a></td>
+     </tr>
+</table>
+
+<h4><a href = "javascript:toggleHistoryTable(5);"><span class="triangle" id="historyHeader_5">&#9660;</span> Version 1511 (OS build 10586)</a></h4>
+<table class="cells-centered" id="historyTable_5">
+<tr>
+                    <th style="width:107px;">OS build</th>
+                    <th style="width:184px;">Availability date</th>
+                    <th style="width:532px;">Servicing option</th>
+                    <th style="width:117px;">KB article</th>
+                </tr>
+     <tr>
+             <td>10586.1540</td>
+             <td>4/10/2018</td>
+             <td>CBB <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4093109" target="_top">KB 4093109</a></td>
+     </tr>
+     <tr>
+             <td>10586.1478</td>
+             <td>3/13/2018</td>
+             <td>CBB <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4088779" target="_top">KB 4088779</a></td>
+     </tr>
+     <tr>
+             <td>10586.1417</td>
+             <td>2/13/2018</td>
+             <td>CBB <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4074591" target="_top">KB 4074591</a></td>
+     </tr>
+     <tr>
+             <td>10586.1358</td>
+             <td>1/18/2018</td>
+             <td>CBB <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4075200" target="_top">KB 4075200</a></td>
+     </tr>
+     <tr>
+             <td>10586.1356</td>
+             <td>1/3/2018</td>
+             <td>CBB <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4056888" target="_top">KB 4056888</a></td>
+     </tr>
+     <tr>
+             <td>10586.1295</td>
+             <td>12/12/2017</td>
+             <td>CBB <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4053578" target="_top">KB 4053578</a></td>
+     </tr>
+     <tr>
+             <td>10586.1232</td>
+             <td>11/14/2017</td>
+             <td>CBB <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4048952" target="_top">KB 4048952</a></td>
+     </tr>
+     <tr>
+             <td>10586.1177</td>
+             <td>11/2/2017</td>
+             <td>CBB <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4052232" target="_top">KB 4052232</a></td>
+     </tr>
+     <tr>
+             <td>10586.1176</td>
+             <td>10/10/2017</td>
+             <td>CBB <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4041689" target="_top">KB 4041689</a></td>
+     </tr>
+     <tr>
+             <td>10586.1106</td>
+             <td>9/12/2017</td>
+             <td>CBB <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4038783" target="_top">KB 4038783</a></td>
+     </tr>
+     <tr>
+             <td>10586.1045</td>
+             <td>8/8/2017</td>
+             <td>CBB <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4034660" target="_top">KB 4034660</a></td>
+     </tr>
+     <tr>
+             <td>10586.1007</td>
+             <td>7/11/2017</td>
+             <td>CBB <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4025344" target="_top">KB 4025344</a></td>
+     </tr>
+     <tr>
+             <td>10586.965</td>
+             <td>6/27/2017</td>
+             <td>CBB <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4032693" target="_top">KB 4032693</a></td>
+     </tr>
+     <tr>
+             <td>10586.962</td>
+             <td>6/13/2017</td>
+             <td>CBB <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4022714" target="_top">KB 4022714</a></td>
+     </tr>
+     <tr>
+             <td>10586.916</td>
+             <td>5/9/2017</td>
+             <td>CBB <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4019473" target="_top">KB 4019473</a></td>
+     </tr>
+     <tr>
+             <td>10586.873</td>
+             <td>4/11/2017</td>
+             <td>CBB <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4015219" target="_top">KB 4015219</a></td>
+     </tr>
+     <tr>
+             <td>10586.839</td>
+             <td>3/14/2017</td>
+             <td>CBB <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4013198" target="_top">KB 4013198</a></td>
+     </tr>
+     <tr>
+             <td>10586.753</td>
+             <td>1/10/2017</td>
+             <td>CBB <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3210721" target="_top">KB 3210721</a></td>
+     </tr>
+     <tr>
+             <td>10586.713</td>
+             <td>12/13/2016</td>
+             <td>CBB <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3205386" target="_top">KB 3205386</a></td>
+     </tr>
+     <tr>
+             <td>10586.679</td>
+             <td>11/8/2016</td>
+             <td>CBB <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3198586" target="_top">KB 3198586</a></td>
+     </tr>
+     <tr>
+             <td>10586.633</td>
+             <td>10/11/2016</td>
+             <td>CBB <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3192441" target="_top">KB 3192441</a></td>
+     </tr>
+     <tr>
+             <td>10586.589</td>
+             <td>9/13/2016</td>
+             <td>CBB <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3185614" target="_top">KB 3185614</a></td>
+     </tr>
+     <tr>
+             <td>10586.545</td>
+             <td>8/9/2016</td>
+             <td>CBB <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3176493" target="_top">KB 3176493</a></td>
+     </tr>
+     <tr>
+             <td>10586.494</td>
+             <td>7/12/2016</td>
+             <td>CBB <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3172985" target="_top">KB 3172985</a></td>
+     </tr>
+     <tr>
+             <td>10586.420</td>
+             <td>6/14/2016</td>
+             <td>CBB <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3163018" target="_top">KB 3163018</a></td>
+     </tr>
+     <tr>
+             <td>10586.318</td>
+             <td>5/10/2016</td>
+             <td>CBB <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3156421" target="_top">KB 3156421</a></td>
+     </tr>
+     <tr>
+             <td>10586.218</td>
+             <td>4/12/2016</td>
+             <td>CBB <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3147458" target="_top">KB 3147458</a></td>
+     </tr>
+     <tr>
+             <td>10586.164</td>
+             <td>3/8/2016</td>
+             <td>CBB <span> &bull; </span> CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3140768" target="_top">KB 3140768</a></td>
+     </tr>
+     <tr>
+             <td>10586.122</td>
+             <td>3/1/2016</td>
+             <td>CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3140743" target="_top">KB 3140743</a></td>
+     </tr>
+     <tr>
+             <td>10586.104</td>
+             <td>2/9/2016</td>
+             <td>CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3135173" target="_top">KB 3135173</a></td>
+     </tr>
+     <tr>
+             <td>10586.71</td>
+             <td>1/27/2016</td>
+             <td>CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3124262" target="_top">KB 3124262</a></td>
+     </tr>
+     <tr>
+             <td>10586.63</td>
+             <td>1/12/2016</td>
+             <td>CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3124263" target="_top">KB 3124263</a></td>
+     </tr>
+     <tr>
+             <td>10586.36</td>
+             <td>12/17/2015</td>
+             <td>CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3124200" target="_top">KB 3124200</a></td>
+     </tr>
+     <tr>
+             <td>10586.29</td>
+             <td>12/8/2015</td>
+             <td>CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3116900" target="_top">KB 3116900</a></td>
+     </tr>
+     <tr>
+             <td>10586.17</td>
+             <td>12/2/2015</td>
+             <td>CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3116908" target="_top">KB 3116908</a></td>
+     </tr>
+     <tr>
+             <td>10586.14</td>
+             <td>11/24/2015</td>
+             <td>CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3120677" target="_top">KB 3120677</a></td>
+     </tr>
+     <tr>
+             <td>10586.11</td>
+             <td>11/18/2015</td>
+             <td>CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3118754" target="_top">KB 3118754</a></td>
+     </tr>
+     <tr>
+             <td>10586.3</td>
+             <td>11/10/2015</td>
+             <td>CB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3105211" target="_top">KB 3105211</a></td>
+     </tr>
+</table>
+
+<h4><a href = "javascript:toggleHistoryTable(6);"><span class="triangle" id="historyHeader_6">&#9660;</span> Version 1507 (RTM) (OS build 10240)</a></h4>
+<table class="cells-centered" id="historyTable_6">
+<tr>
+                    <th style="width:107px;">OS build</th>
+                    <th style="width:184px;">Availability date</th>
+                    <th style="width:532px;">Servicing option</th>
+                    <th style="width:117px;">KB article</th>
+                </tr>
+     <tr>
+             <td>10240.17976</td>
+             <td>9/11/2018</td>
+             <td>LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4457132" target="_top">KB 4457132</a></td>
+     </tr>
+     <tr>
+             <td>10240.17946</td>
+             <td>8/14/2018</td>
+             <td>LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4343892" target="_top">KB 4343892</a></td>
+     </tr>
+     <tr>
+             <td>10240.17918</td>
+             <td>7/16/2018</td>
+             <td>LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4345455" target="_top">KB 4345455</a></td>
+     </tr>
+     <tr>
+             <td>10240.17914</td>
+             <td>7/10/2018</td>
+             <td>LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4338829" target="_top">KB 4338829</a></td>
+     </tr>
+     <tr>
+             <td>10240.17889</td>
+             <td>6/12/2018</td>
+             <td>LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4284860" target="_top">KB 4284860</a></td>
+     </tr>
+     <tr>
+             <td>10240.17861</td>
+             <td>5/8/2018</td>
+             <td>LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4103716" target="_top">KB 4103716</a></td>
+     </tr>
+     <tr>
+             <td>10240.17831</td>
+             <td>4/10/2018</td>
+             <td>LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4093111" target="_top">KB 4093111</a></td>
+     </tr>
+     <tr>
+             <td>10240.17797</td>
+             <td>3/13/2018</td>
+             <td>LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4088786" target="_top">KB 4088786</a></td>
+     </tr>
+     <tr>
+             <td>10240.17770</td>
+             <td>2/13/2018</td>
+             <td>LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4074596" target="_top">KB 4074596</a></td>
+     </tr>
+     <tr>
+             <td>10240.17741</td>
+             <td>1/31/2018</td>
+             <td>LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4077735" target="_top">KB 4077735</a></td>
+     </tr>
+     <tr>
+             <td>10240.17741</td>
+             <td>1/18/2018</td>
+             <td>LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4075199" target="_top">KB 4075199</a></td>
+     </tr>
+     <tr>
+             <td>10240.17738</td>
+             <td>1/3/2018</td>
+             <td>LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4056893" target="_top">KB 4056893</a></td>
+     </tr>
+     <tr>
+             <td>10240.17709</td>
+             <td>12/12/2017</td>
+             <td>LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4053581" target="_top">KB 4053581</a></td>
+     </tr>
+     <tr>
+             <td>10240.17673</td>
+             <td>11/14/2017</td>
+             <td>LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4048956" target="_top">KB 4048956</a></td>
+     </tr>
+     <tr>
+             <td>10240.17643</td>
+             <td>10/10/2017</td>
+             <td>LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4042895" target="_top">KB 4042895</a></td>
+     </tr>
+     <tr>
+             <td>10240.17609</td>
+             <td>9/12/2017</td>
+             <td>LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4038781" target="_top">KB 4038781</a></td>
+     </tr>
+     <tr>
+             <td>10240.17533</td>
+             <td>8/8/2017</td>
+             <td>LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4034668" target="_top">KB 4034668</a></td>
+     </tr>
+     <tr>
+             <td>10240.17488</td>
+             <td>7/11/2017</td>
+             <td>LTSB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4025338" target="_top">KB 4025338</a></td>
+     </tr>
+     <tr>
+             <td>10240.17446</td>
+             <td>6/27/2017</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4032695" target="_top">KB 4032695</a></td>
+     </tr>
+     <tr>
+             <td>10240.17443</td>
+             <td>6/13/2017</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4022727" target="_top">KB 4022727</a></td>
+     </tr>
+     <tr>
+             <td>10240.17394</td>
+             <td>5/9/2017</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4019474" target="_top">KB 4019474</a></td>
+     </tr>
+     <tr>
+             <td>10240.17354</td>
+             <td>4/11/2017</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4015221" target="_top">KB 4015221</a></td>
+     </tr>
+     <tr>
+             <td>10240.17319</td>
+             <td>3/14/2017</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=4012606" target="_top">KB 4012606</a></td>
+     </tr>
+     <tr>
+             <td>10240.17236</td>
+             <td>1/10/2017</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3210720" target="_top">KB 3210720</a></td>
+     </tr>
+     <tr>
+             <td>10240.17202</td>
+             <td>12/13/2016</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3205383" target="_top">KB 3205383</a></td>
+     </tr>
+     <tr>
+             <td>10240.17190</td>
+             <td>11/8/2016</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3198585" target="_top">KB 3198585</a></td>
+     </tr>
+     <tr>
+             <td>10240.17146</td>
+             <td>10/11/2016</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3192440" target="_top">KB 3192440</a></td>
+     </tr>
+     <tr>
+             <td>10240.17113</td>
+             <td>9/20/2016</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3193821" target="_top">KB 3193821</a></td>
+     </tr>
+     <tr>
+             <td>10240.17113</td>
+             <td>9/13/2016</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3185611" target="_top">KB 3185611</a></td>
+     </tr>
+     <tr>
+             <td>10240.17071</td>
+             <td>8/9/2016</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3176492" target="_top">KB 3176492</a></td>
+     </tr>
+     <tr>
+             <td>10240.17024</td>
+             <td>7/12/2016</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3163912" target="_top">KB 3163912</a></td>
+     </tr>
+     <tr>
+             <td>10240.16942</td>
+             <td>6/14/2016</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3163017" target="_top">KB 3163017</a></td>
+     </tr>
+     <tr>
+             <td>10240.16854</td>
+             <td>5/10/2016</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3156387" target="_top">KB 3156387</a></td>
+     </tr>
+     <tr>
+             <td>10240.16771</td>
+             <td>4/12/2016</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3147461" target="_top">KB 3147461</a></td>
+     </tr>
+     <tr>
+             <td>10240.16725</td>
+             <td>3/8/2016</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3140745" target="_top">KB 3140745</a></td>
+     </tr>
+     <tr>
+             <td>10240.16683</td>
+             <td>2/9/2016</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3135174" target="_top">KB 3135174</a></td>
+     </tr>
+     <tr>
+             <td>10240.16644</td>
+             <td>1/12/2016</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3124266" target="_top">KB 3124266</a></td>
+     </tr>
+     <tr>
+             <td>10240.16601</td>
+             <td>12/8/2015</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3116869" target="_top">KB 3116869</a></td>
+     </tr>
+     <tr>
+             <td>10240.16590</td>
+             <td>11/10/2015</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3105213" target="_top">KB 3105213</a></td>
+     </tr>
+     <tr>
+             <td>10240.16566</td>
+             <td>10/27/2015</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3105210" target="_top">KB 3105210</a></td>
+     </tr>
+     <tr>
+             <td>10240.16549</td>
+             <td>10/13/2015</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3097617" target="_top">KB 3097617</a></td>
+     </tr>
+     <tr>
+             <td>10240.16520</td>
+             <td>9/30/2015</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3093266" target="_top">KB 3093266</a></td>
+     </tr>
+     <tr>
+             <td>10240.16487</td>
+             <td>9/8/2015</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3081455" target="_top">KB 3081455</a></td>
+     </tr>
+     <tr>
+             <td>10240.16463</td>
+             <td>8/27/2015</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3081448" target="_top">KB 3081448</a></td>
+     </tr>
+     <tr>
+             <td>10240.16445</td>
+             <td>8/18/2015</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3081444" target="_top">KB 3081444</a></td>
+     </tr>
+     <tr>
+             <td>10240.16433</td>
+             <td>8/14/2015</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3081438" target="_top">KB 3081438</a></td>
+     </tr>
+     <tr>
+             <td>10240.16430</td>
+             <td>8/11/2015</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3081436" target="_top">KB 3081436</a></td>
+     </tr>
+     <tr>
+             <td>10240.16413</td>
+             <td>8/5/2015</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3081424" target="_top">KB 3081424</a></td>
+     </tr>
+     <tr>
+             <td>10240.16405</td>
+             <td>7/29/2015</td>
+             <td>LTSB <span> &bull; </span> CB <span> &bull; </span> CBB</td>
+             <td><a href="https://support.microsoft.com/?kbid=3074683" target="_top">KB 3074683</a></td>
+     </tr>
+</table>
+
+
+</div>      <script type="text/javascript">          /* Begin WinRelInfo JS */          function onload() {              parent.postMessage("winrelinfo" + (45 + document.getElementById("winrelinfo_container").scrollHeight), "*");              for (var i = 1; i <= 6; i++) {                  toggleHistoryTable(i);              }          }            function toggleHistoryTable(num) {              var header = document.getElementById("historyHeader_" + num);              var table = document.getElementById("historyTable_" + num);              if (table.style.display == "table" || table.style.display == "") {                  table.style.display = "none";                  header.innerHTML = "&#9654;";              } else {                  table.style.display = "table";                  header.innerHTML = "&#9660;";              }              parent.postMessage("winrelinfo" + (45 + document.getElementById("winrelinfo_container").scrollHeight), "*");          }          /* End WinRelInfo JS */      </script>  </body>  </html>

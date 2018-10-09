@@ -1,0 +1,14 @@
+{
+	"require": {
+	},
+	"autoload": {
+		"psr-4": {
+			"RytoEX\\OBS\\LogAnalyzer\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"RytoEX\\OBS\\LogAnalyzer\\Tests\\": "tests/"
+		}
+	}
+}

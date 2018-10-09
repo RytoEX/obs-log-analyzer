@@ -1,0 +1,59 @@
+{
+	"format_version": 1,
+	"releases": [
+		{
+			"version": "10.0",
+			"build": "17134",
+			"revision": "1",
+			"ms_version_name": "1803",
+			"ms_version_num": "1803",
+			"ms_public_name": "April 2018 Update",
+			"ms_codename": "Redstone 4"
+		},
+		{
+			"version": "10.0",
+			"build": "16299",
+			"revision": "371",
+			"ms_version_name": "1709",
+			"ms_version_num": "1709",
+			"ms_public_name": "Fall Creators Update",
+			"ms_codename": "Redstone 3"
+		},
+		{
+			"version": "10.0",
+			"build": "15063",
+			"revision": "1058",
+			"ms_version_name": "1703",
+			"ms_version_num": "1703",
+			"ms_public_name": "Creators Update",
+			"ms_codename": "Redstone 2"
+		},
+		{
+			"version": "10.0",
+			"build": "14393",
+			"revision": "2214",
+			"ms_version_name": "1607",
+			"ms_version_num": "1607",
+			"ms_public_name": "Anniversary Update",
+			"ms_codename": "Redstone 1"
+		},
+		{
+			"version": "10.0",
+			"build": "10586",
+			"revision": "1540",
+			"ms_version_name": "1511",
+			"ms_version_num": "1511",
+			"ms_public_name": "November Update",
+			"ms_codename": "Threshold 2"
+		},
+		{
+			"version": "10.0",
+			"build": "10240",
+			"revision": "17831",
+			"ms_version_name": "1507 (RTM)",
+			"ms_version_num": "1507",
+			"ms_public_name": "Initial Release",
+			"ms_codename": "Threshold 1"
+		}
+	]
+}
